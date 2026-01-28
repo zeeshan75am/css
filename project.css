@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.lines-nav
+{
+    padding: 1px;
+}   
+.lines 
+{
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    padding: 40 40px;
+    margin-right:390px;
+}
+.lines:hover
+{
+    background-color: #bbb6b6;
+}
+
+.menu-icon {
+    display: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.navbar
+{
+    height: 56px;
+    background-color: white;
+    color: black;
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+                                               /* Box 1 */
+
+
+.logo
+{
+    background-image: url("youtube-logo.png");
+    height: 46px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-right: 120px;
+}
+/* .sup
+{
+  
+} */
+
+.border
+{
+    border: 2px solid transparent;
+}
+
+
+                                               /* box 2 */
+.nav-search
+{
+    height: 40px;
+    width: 470px;
+    font-size: 10px;
+    padding: 0 10px;
+    margin: 2px;
+    align-content: center; 
+    margin-left: center;
+    display: flex;
+    justify-content: space-evenly;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+   
+}
+
+.button
+{
+ border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.search-input
+{
+ width: 100%; 
+ font-size: 1rem;  
+ border: 1px solid #d3d3d3;
+ 
+  
+}
+
+.search-icon:hover
+{
+  background-color: #bbb6b6;  
+}
+
+
+
+ 
+.button
+{
+    border: none;
+    background-color: none;
+}
+.button:hover
+{
+  background-color: #bbb6b6;  
+}
+.you-button{
+     padding: 12px;
+   font-size: 12px;
+}
+
+.you-button
+{
+    background-color: white;
+    border: none;
+     padding: 12px;
+   font-size: 12px;
+}
+.you-button:hover
+{
+  background-color: #bbb6b6;   
+}
+
+.mic
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+     padding: 12px;
+   font-size: 12px;
+}
+
+.mic-button
+
+
+{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #F8F8F8;
+    border-radius: 50px;
+}
+.mic-button:hover
+{
+background-color: #bbb6b6;
+}
+
+.create
+{
+    width: 100px;
+    height: 36px;
+     padding: 12px;
+   font-size: 12px;
+}
+
+.create-button
+{
+    border: none;
+    background-color: none;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 100px;
+
+}
+.create-button:hover
+{
+  background-color: #bbb6b6;  
+}  
+
+
+.text
+{
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    margin-inline: 20px;
+    margin-top: 19px;
+    height: 36px;
+width: 100px;
+}
+
+.notification
+{
+    
+    height: 40px;
+    width: 40px;
+     padding: 12px;
+   font-size: 12px;
+}
+
+.notification-button 
+{
+    height: 40px;
+    width: 40px;
+border: none;
+display: flex;
+margin-left: 10px;
+justify-content: center;
+align-items: center;
+background-color: white;
+font-size: 12px;
+
+}
+.notification-button:hover
+{
+  background-color: #bbb6b6;  
+}
+
+                                      /* pannel */
+ .pannel-opps {
+    display: flex;        
+    gap: 15px;   
+     overflow: auto;          
+}
+
+.pannel-opps p {
+   
+    padding: 12px;
+    background-color: #F8F8F8;
+    color: black;
+    border-radius: 20px;
+    
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.pannel-opps p:active {
+    background-color: black;
+    color: white;
+}
+                                     /* sidebar */
+
+.sidebar
+{
+    height: 64px;
+    width: 74px;
+ display: flex;
+    flex-direction: column;
+     align-items: flex-start; 
+margin-top:60%;
+ box-sizing: border-box;
+
+}
+
+.sidebar:hover
+{
+    background-color: #bbb6b6;  
+}
+
+td
+{
+    vertical-align: middle;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 6px;                
+    
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.menu-button i 
+{
+    width: 20px;            
+    text-align: center;
+   
+    font-size: 20px;
+    
+}
+.menu-button:hover
+{
+  background-color: #bbb6b6;  
+}
+                    /* HERO SECTION */
+
+.hero-section
+{
+    display: flex;
+    height: 186px;
+    width: 336px;
+    text-align: left;
+    margin-right: 30px; 
+    padding-left: 100px;
+    position: relative;
+    gap: 20px;
+   
+}
+

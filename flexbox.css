@@ -1,0 +1,62 @@
+body
+{
+    text-align: center;
+}
+
+div
+{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container
+{
+    width: 800px;
+    height: 300px;
+    display: flex;
+     /* to set the direction(a to z||z to a) of box i-e,in coln or rows */
+    flex-direction: row;
+    /* to set layout right ,left to,end */
+    justify-content: center;
+    /* flex-wrap: wrap;  */
+    align-items: flex-start;
+    align-content: center;
+   
+   
+}
+
+#box1
+{
+    background-color: brown;
+    flex-grow: 1;
+}
+
+#box2
+{
+    background-color: burlywood;
+    height: 200px;
+    /* align-self: last baseline; */
+    /* flex-shrink: 0px; */
+    /* occupies empty space in div */
+flex-grow: 2;
+}
+
+
+#box3
+{
+    background-color: chocolate;
+    height: 75px;
+    flex-shrink: 5;
+}
+
+#box4
+{
+    background-color: cornflowerblue;
+}
+
+#box5
+{
+    background-color: darkcyan;
+}

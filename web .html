@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navbar Inline</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 20px;
+    background-color: #0f1111;
+    color: white;
+  }
+
+  .sidebar {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .nav-logo .logo {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .sup {
+    font-size: 12px;
+    vertical-align: super;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <button class="sidebar">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <div class="nav-logo">
+    <div class="logo" title="Youtube Home">
+      YT <sup class="sup">PK</sup>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
