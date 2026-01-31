@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+/* MAIN NAVBAR */
+.mnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #111;
+}
+
+/* LOGO */
+.logo img {
+    height: 50px;
+}
+
+/* SECOND NAV */
+.secondNav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* NAV LINKS */
+.secondNav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+.secondNav a:hover {
+    color: #f4c430;
+}
+
+/* SERVICES DROPDOWN */
+.services {
+    position: relative;
+}
+
+/* DROPDOWN BOX */
+.first {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #222;
+    display: none;
+    padding: 15px;
+    width: 420px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* SHOW ON HOVER */
+.services:hover .first {
+    display: flex;
+}
+
+/* DROPDOWN COLUMNS */
+.first div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+/* DROPDOWN LINKS */
+.first a {
+    color: #ddd;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.first a:hover {
+    color: #f4c430;
+}

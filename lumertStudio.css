@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.mnav {
+    width: 1200px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+
+}
+li{
+   list-style-type: none; 
+}
+
+
+.logo img {
+  height: 40px;  
+}
+
+.profile img
+{
+     height: 60px; 
+}
+
+.secondNav {
+display: flex;
+justify-content: flex-start;
+margin-right: 30px;
+gap: 50px;
+height: 40px;
+width: auto;
+max-width: 900px;
+text-align: center;
+align-items: center;
+}
+
+
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(4, 46, 231);
+}
+.first{
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    top: 100%;
+    left: 220px;
+    height: auto;
+padding: 15px;
+z-index: 1000;
+flex-wrap: wrap;
+width: 100vh;
+}
+
+ul{
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 0.5px transparent;
+    text-wrap: wrap;
+}
+li{
+    margin-top: 40px;
+   
+}
+
+.cover{
+    background-color: #6DC7D1;
+    color: white;
+    border-radius: 5px;
+}
+.services:hover .first{
+     display: inline;
+}
+
+               
+.services {
+    position: relative;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+        /* second div started */
+.imageM {
+    display: flex;
+    height: 400px;
+    width: 1500px;
+    max-width: 100%;
+    justify-content: center;
+}
+.mimage{
+    height: 400px;
+    width: 100%;
+}
+.text
+{
+position: absolute;
+transform: translate(-75%, 55%);
+color: white;
+margin-top: 50px;
+margin-right: 350px;
+justify-items: flex-start;
+
+
+}
+ .text span {
+color:#6DC7D1
+ }
+ 
+ .pt
+ {
+    border: 1px solid #6DC7D1;
+    color: #040d0e;
+ }
+
+
+/* second */
+
+.second
+{
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 0px;
+    scrollbar-width: none;
+    margin: 0px auto;
+    max-width: 1200px;
+
+    gap: 10px;
+
+}
+
+          .writing
+          {
+            height: 280px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0.5;
+            font-size: 18px;
+            text-decoration: none;
+          }
+
+        
+          .pics
+          {
+           display: flex;
+           flex-wrap: nowrap;
+           gap: 10px;
+           justify-content: flex-start;
+           width: 100%;
+           height: 260px;
+           overflow-x: auto;
+           scrollbar-width: none;
+           padding: 0px 4px;
+           box-sizing: border-box;
+           flex-grow: 1; 
+            
+          }
+          
+
+          .pics img
+          {
+            width: 155px;
+ transition: 0.3s ease-in-out ;
+ 
+          }
+          .pics img:hover
+          {
+            transform: scale(1.1);
+         
+          }
+
+                   /* cards */
+        .cards{
+            height: 260px;
+            width: 200vh;
+              display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .mcards{
+        height: 267px;
+        width: 1092px;
+        display: flex;
+        align-items: center;
+        display: block;
+    }
+    .ctext{
+        height: 260px;
+        width: 300px;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        font-size: 19px;
+        margin-top: 100px;
+    }
+
+    
+
+    .firstcard{
+      height: 196px;
+        width: 381px;
+        display: flex;;
+      align-items: center;
+        border: 1px solid #6DC7D1;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .p{
+        align-items: baseline;
+    }
+    .firsticon{
+        height: 50px;
+        width: 50px;
+        align-content: center;
+    }
+   .ih{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+   
+   }
+
+
+        /* second */
+
+
+    .secondcard{
+       height: 196px;
+        width: 381px;
+        display: flex;;
+      align-items: center;
+        border: 1px solid #6DC7D1;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ps{
+        align-items: baseline;
+    }
+    .secondicon{
+        height: 50px;
+        width: 50px;
+        align-content: center;
+    }
+   .ihs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+   }
+
+        /* third */
+        .smcards
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 260px;
+            width: 200vh;
+
+        }
+
+        .thirdcard{
+    height: 196px;
+        width: 381px;
+        display: flex;;
+      align-items: center;
+        border: 1px solid #6DC7D1;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pth{
+        align-items: baseline;
+    }
+    .thirdicon{
+        height: 50px;
+        width: 50px;
+        align-content: center;
+    }
+   .iht{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+   }
+
+
+   .fourthcard{
+         height: 196px;
+        width: 381px;
+        display: flex;;
+      align-items: center;
+        border: 1px solid #6DC7D1;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pf{
+        align-items: baseline;
+    }
+    .fourthicon{
+        height: 50px;
+        width: 50px;
+        align-content: center;
+    }
+   .ihf{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+   }
+
+   .fifthcard{
+    height: 196px;
+        width: 381px;
+        display: flex;;
+      align-items: center;
+        border: 1px solid #6DC7D1;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pi{
+        align-items: baseline;
+    }
+    .fifthicon{
+        height: 50px;
+        width: 50px;
+        align-content: center;
+    }
+   .ihfi{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+   }
